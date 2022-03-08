@@ -1,13 +1,12 @@
 fun main(){
-    Cars("Subaru","Harrier","Jeep","V8")
+    Cars(arrayOf("Subaru","Harrier","Jeep","V8"))
     arrayNames()
     arrayNumbers()
     returnString(arrayOf("Conslate","Brenda","Joyce"))
 
 }
-fun Cars(name:String,name1:String,name2:String,name3:String){
-    var names = arrayOf(name,name1,name2,name3)
-    println(names.contentToString())
+fun Cars(name:Array<String>){
+    println(name.contentToString())
 
 
 }
